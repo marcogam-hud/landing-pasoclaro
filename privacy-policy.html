@@ -1,0 +1,179 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Política de Privacidad · PasoClaro</title>
+  <style>
+    :root {
+      color-scheme: light;
+      --bg: #f7f8f5;
+      --surface: #ffffff;
+      --ink: #172326;
+      --muted: #607177;
+      --line: #d8e0e2;
+      --brand: #2f7776;
+      font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      background: var(--bg);
+      color: var(--ink);
+      line-height: 1.55;
+    }
+    .topbar {
+      background: #1D4E4D;
+      padding: 12px 20px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+    .topbar-logo {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      text-decoration: none;
+      color: white;
+      font-weight: 600;
+      font-size: 16px;
+    }
+    .topbar-logo img {
+      height: 30px;
+      width: auto;
+      border-radius: 6px;
+    }
+    .topbar-back {
+      color: rgba(255,255,255,0.65);
+      text-decoration: none;
+      font-size: 14px;
+      transition: color 0.2s;
+    }
+    .topbar-back:hover { color: white; }
+    main {
+      max-width: 860px;
+      margin: 0 auto;
+      padding: 44px 20px 72px;
+    }
+    header {
+      padding-bottom: 24px;
+      border-bottom: 1px solid var(--line);
+      margin-bottom: 28px;
+    }
+    .brand {
+      margin: 0 0 10px;
+      color: var(--brand);
+      font-size: 15px;
+      font-weight: 800;
+      letter-spacing: 0;
+    }
+    h1 {
+      margin: 0;
+      font-size: clamp(34px, 6vw, 52px);
+      line-height: 1.02;
+      letter-spacing: 0;
+    }
+    .updated {
+      margin: 14px 0 0;
+      color: var(--muted);
+      font-size: 16px;
+    }
+    section {
+      background: var(--surface);
+      border: 1px solid var(--line);
+      border-radius: 8px;
+      padding: 22px;
+      margin: 14px 0;
+    }
+    h2 {
+      margin: 0 0 10px;
+      font-size: 22px;
+      line-height: 1.2;
+      letter-spacing: 0;
+    }
+    p {
+      margin: 0;
+      color: #26383d;
+      font-size: 17px;
+    }
+    p + p { margin-top: 12px; }
+    footer {
+      margin-top: 24px;
+      color: var(--muted);
+      font-size: 14px;
+    }
+  </style>
+</head>
+<body>
+
+  <nav class="topbar">
+    <a href="index.html" class="topbar-logo">
+      <img src="assets/brand/pasoclaro-logo.png" alt="PasoClaro">
+      PasoClaro
+    </a>
+    <a href="index.html" class="topbar-back">← Volver al inicio</a>
+  </nav>
+
+  <main>
+    <header>
+      <p class="brand">PasoClaro</p>
+      <h1>Política de Privacidad</h1>
+      <p class="updated">Última actualización: 25 de mayo de 2026</p>
+    </header>
+
+    <section>
+      <h2>Quiénes somos</h2>
+      <p>PasoClaro es una aplicación que apoya rutinas de movimiento guiado para personas mayores. La app no reemplaza la atención médica o kinesiológica, y está pensada para usarse junto a las indicaciones del programa, institución o equipo que acompaña al usuario.</p>
+    </section>
+
+    <section>
+      <h2>Datos que usamos</h2>
+      <p>Podemos guardar correo de acceso, código de participante del piloto, respuestas de evaluación funcional, consentimiento, rutinas asignadas, sesiones completadas, dolor o fatiga reportada al terminar, solicitudes de contacto, preferencias de notificación, versión de la app y plataforma.</p>
+      <p>El nombre preferido que el usuario puede ingresar en la app se guarda localmente en el dispositivo y no se envía al servidor.</p>
+    </section>
+
+    <section>
+      <h2>Para qué usamos los datos</h2>
+      <p>Usamos estos datos para permitir el acceso, adaptar la rutina al nivel funcional, mantener funcionamiento offline, sincronizar progreso, mostrar seguimiento autorizado a cuidadores o funcionarios del programa, detectar señales de seguridad y mejorar la operación del piloto.</p>
+    </section>
+
+    <section>
+      <h2>Datos locales</h2>
+      <p>Algunos datos se guardan en el dispositivo para que la app funcione aunque no haya conexión. Cuando vuelve la conexión, la app puede sincronizar sesiones y datos necesarios para el seguimiento autorizado.</p>
+    </section>
+
+    <section>
+      <h2>Institución, cuidadores y piloto</h2>
+      <p>Si el usuario participa mediante una institución, funcionarios autorizados pueden ver datos de uso y seguridad vinculados al programa. Los cuidadores vinculados ven información limitada de seguimiento, como adherencia reciente y señales de alerta de sesión.</p>
+      <p>PasoClaro no debe usarse para registrar datos clínicos sensibles en planillas externas no autorizadas. El piloto debe operar con los canales aprobados por la institución correspondiente.</p>
+    </section>
+
+    <section>
+      <h2>Servicios externos</h2>
+      <p>La autenticación, base de datos y sincronización usan Supabase. En el piloto, el equipo puede cruzar datos agregados con formularios externos usando solo el código de participante, si la institución lo autoriza.</p>
+    </section>
+
+    <section>
+      <h2>Notificaciones</h2>
+      <p>Las notificaciones son opcionales. Se usan para recordatorios generales de rutina o inactividad. No incluyen diagnósticos, dolor, caídas ni otros datos sensibles de salud.</p>
+    </section>
+
+    <section>
+      <h2>Eliminación de cuenta y datos</h2>
+      <p>El usuario puede solicitar desde Mi perfil la eliminación de su cuenta y datos asociados. Para evitar accidentes, la app pide doble confirmación antes de ejecutar esta acción.</p>
+    </section>
+
+    <section>
+      <h2>Límites de la app</h2>
+      <p>PasoClaro no diagnostica enfermedades, no indica tratamientos, no recomienda medicamentos y no reemplaza la evaluación de un profesional de salud. Si el usuario presenta dolor fuerte, mareo, inestabilidad, dolor en el pecho o falta de aire intensa, debe detener la rutina y consultar al equipo correspondiente.</p>
+    </section>
+
+    <section>
+      <h2>Contacto</h2>
+      <p>Para dudas sobre privacidad, acceso o eliminación de datos, contacta al equipo del programa PasoClaro o a la institución que invitó al usuario al piloto.</p>
+    </section>
+
+    <footer>Esta política está escrita para la beta y piloto de PasoClaro. Si el programa cambia, la política deberá actualizarse antes de una distribución más amplia.</footer>
+  </main>
+</body>
+</html>
